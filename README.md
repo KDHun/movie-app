@@ -37,7 +37,7 @@ You can try the app live at [Movie Search App](https://react-find-movie.web.app/
 2. Navigate to the project directory:
 
    ```bash
-   cd movie-search-app
+   cd movie-app
    ```
 
 3. Install the project dependencies:
@@ -49,7 +49,7 @@ You can try the app live at [Movie Search App](https://react-find-movie.web.app/
 4. Create a `.env` file in the project root and add your TMDb API key:
 
    ```env
-   REACT_APP_API_KEY=your-api-key-here
+   REACT_APP_TOKEN=your-api-key-here
    REACT_APP_TRANDING_URL="https://api.themoviedb.org/3/trending/movie/day?language=en-US&page="
    REACT_APP_SEARCH_URL="https://api.themoviedb.org/3/search/movie"
    ```
@@ -66,7 +66,7 @@ You can try the app live at [Movie Search App](https://react-find-movie.web.app/
 
 ## Usage
 
-1. Enter a movie title or keyword in the search input and press the "Search" button.
+1. Enter a movie title or keyword in the search input.
 2. Browse through the list of movies that match your search.
 3. Click on a movie to view more details.
 4. To close the movie details overlay, click the "Close" button.
